@@ -1,0 +1,246 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@media (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+}
+
+@media (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .icon-small {
+        width: 17px;
+    }
+
+    .steps .image,
+    .steps .step-list {
+        margin-top: 10px;
+    }
+
+    .works-step {
+        margin-bottom: 40px;
+    }
+
+    .grid-plans {
+        grid-column-gap: 30px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .plan-price {
+        font-size: 2.5rem;
+    }
+
+    .contact-form {
+        width: 80%;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+
+    .row,
+    .hero-text-box {
+        padding: 0 4%;
+    }
+
+    nav .row {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .mobile-nav-icon {
+        display: block;
+    }
+
+    .main-nav {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        display: none;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+
+    .show {
+        display: block;
+    }
+
+    .main-nav li {
+        margin-bottom: 20px;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        padding: 10px 0;
+        border: 0;
+    }
+
+    .sticky .row {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        margin-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .sticky .mobile-nav-icon {
+        color: #555;
+        top: 5px;
+    }
+
+    .sticky img {
+        height: 40px;
+    }
+
+    h1 {
+        font-size: 1.4rem;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .steps .image {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .steps .image img {
+        width: 40%;
+    }
+
+    .steps {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .works-step:last-of-type {
+        margin-bottom: 50px;
+    }
+
+    .grid,
+    .cities,
+    .grid-quotes,
+    .grid-plans,
+    .form-group {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .meals-showcase {
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid {
+        text-align: center;
+    }
+
+    .grid-item,
+    .city {
+        margin-bottom: 20px;
+    }
+
+    .city {
+        text-align: center;
+    }
+
+    .city-feature {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .quote {
+        margin-bottom: 70px;
+    }
+
+    .quote:last-child {
+        margin-bottom: 30px;
+    }
+
+    .plan {
+        width: 80%;
+        margin: 0 auto 30px auto;
+    }
+
+    .form-group label {
+        margin-bottom: 20px;
+    }
+
+    .form-group:last-child label {
+        margin-bottom: 0;
+    }
+
+    .form-group:last-child input {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .plan {
+        width: 90%;
+        margin: 0 auto 30px auto;
+    }
+
+    .city-feature {
+        width: 45%;
+        margin: 0 auto;
+    }
+
+    footer {
+        font-size: 0.6rem;
+        padding: 30px;
+    }
+
+    .left-footer ul li {
+        margin-right: 10px;
+    }
+
+    .nav-footer {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}

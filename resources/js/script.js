@@ -50,7 +50,7 @@ const waypointPlan = new Waypoint({
     offset: '50%',
 });
 
-document.addEventListener('click', () => {
+document.querySelector('.mobile-nav-icon').addEventListener('click', () => {
     document.querySelector('.main-nav').classList.toggle('show');
 
     const hamburgerIcon = document.querySelector('.js--nav-icon');
